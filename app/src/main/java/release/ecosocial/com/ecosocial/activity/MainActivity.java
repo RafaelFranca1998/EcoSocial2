@@ -100,7 +100,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
         } else if (id == R.id.nav_add_event) {
-
+            Intent intent =  new Intent(MainActivity.this,AddActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_perfil) {
 
         } else if (id == R.id.nav_share) {

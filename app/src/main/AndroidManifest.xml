@@ -38,6 +38,12 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity android:name=".activity.AddActivity">
+
+        </activity>
+        <activity android:name=".activity.SplashScreen">
+
+        </activity>
     </application>
 
 </manifest>
